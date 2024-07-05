@@ -42,7 +42,7 @@ LOGGING = {
     },
 }
 
-ALLOWED_HOSTS = ["leonardowebsite4.azurewebsites.net"]
+ALLOWED_HOSTS = ["leonardowebsite4.azurewebsites.net", "leonardopower.com"]
 #ALLOWED_HOSTS = ["*"]
 
 
