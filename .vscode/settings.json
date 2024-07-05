@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/be17d7db-c6fd-42b1-86c5-3e40ebf576d9/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/leonardowebsite4",
-    "appService.deploySubpath": "."
-}

@@ -112,7 +112,7 @@
                                 </div>
                             </li>-->
 
-                          <li class="has-droupdown has-menu-child-item"><a href="{% url 'blog' %}">Blog</a>
+                          <!--<li class="has-droupdown has-menu-child-item"><a href="{% url 'blog' %}">Blog</a>-->
                         <!--       <ul class="submenu">
                                     <li><a href="blog-grid.html">Blog Grid</a></li>
                                     <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
@@ -164,8 +164,8 @@
                             <div class="header-top">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img class="logo-light" src="assets/images/logo/logo.png" alt="Corporate Logo">
-                                        <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                                        <img class="logo-light" src="{% static 'landing/images/logo/logo.png' %}" alt="leonardo Logo">
+                                        <img class="logo-dark" src="{% static 'landing/images/logo/logo.png' %}" alt="leonardo Logo">
                                     </a>
                                 </div>
                                 <div class="close-menu">
@@ -175,13 +175,13 @@
                                 </div>
                             </div>
                             <ul class="mainmenu">
-                                <li class="with-megamenu has-menu-child-item position-relative"><a href="#">Home</a>
+                                <li class="with-megamenu has-menu-child-item position-relative"><a href="/">Home</a>
                                     <div class="rainbow-megamenu with-mega-item-2">
                                         <div class="wrapper">
                                             <div class="row row--0">
                                                 <div class="col-lg-6 single-mega-item">
                                                     <ul class="mega-menu-item">
-                                                        <li><a href="index-landing.html">Sass Landing <span class="rainbow-badge-card">New</span></a></li>
+                                                       <!-- <li><a href="index-landing.html">Sass Landing <span class="rainbow-badge-card">New</span></a></li>
                                                         <li><a href="index-application.html">Application <span class="rainbow-badge-card">New</span></a></li>
                                                         <li><a href="index-collaborate.html">Collaborate <span class="rainbow-badge-card">New</span></a></li>
                                                         <li><a href="index-business-consulting.html">Business Consulting</a></li>
@@ -192,10 +192,10 @@
                                                         <li><a href="index-digital-agency.html">Digital Agency</a></li>
                                                         <li><a href="index-finance.html">Finance</a></li>
                                                         <li><a href="index-company.html">Company</a></li>
-                                                        <li><a href="index-marketing-agency.html">Marketing Agency</a></li>
+                                                        <li><a href="index-marketing-agency.html">Marketing Agency</a></li>-->
                                                     </ul>
                                                 </div>
-                                                <div class="col-lg-6 single-mega-item">
+                                               <div class="col-lg-6 single-mega-item">
                                                     <ul class="mega-menu-item">
                                                         <li><a href="index-travel-agency.html">Travel Agency</a></li>
                                                         <li><a href="index-consulting.html">Consulting</a></li>
@@ -215,8 +215,11 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li><a href="about.html">About</a></li>
-                                <li class="with-megamenu has-menu-child-item menu-item-open"><a href="#">Elements</a>
+
+                                <li><a href="{% url 'about' %}">About</a></li>
+                                <li><a href="{% url 'faq' %}">FAQ</a></li>
+                                <li><a href="{% url 'contact' %}">Contact</a></li>
+                               <!-- <li class="with-megamenu has-menu-child-item menu-item-open"><a href="#">Elements</a>
                                     <div class="rainbow-megamenu">
                                         <div class="wrapper">
                                             <div class="row row--0">
@@ -290,7 +293,7 @@
                                     </ul>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
-                            </ul>
+                            </ul>-->
             
             
             
